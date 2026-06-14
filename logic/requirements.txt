@@ -1,0 +1,9 @@
+openai-whisper
+sentence-transformers
+torch
+numpy
+ffmpeg-python
+scikit-learn
+
+faster-whisper
+sounddevice
