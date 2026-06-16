@@ -242,7 +242,7 @@ with open('agm_minutes_raw.txt', 'w', encoding='utf-8') as f:
 print("✓ AGM Minutes saved to agm_minutes_raw.txt")
 
 
-# ==================== NOTICES GENERATION ====================
+# NOTICES GENERATION
 
 def generate_notices(count=500):
     """Generate housing society notices"""
@@ -494,7 +494,7 @@ with open('society_notices_raw.txt', 'w', encoding='utf-8') as f:
 print("✓ Notices saved to society_notices_raw.txt")
 
 
-# ==================== CIRCULARS GENERATION ====================
+# CIRCULARS GENERATION 
 
 def generate_circulars(count=300):
     """Generate housing society circulars"""
@@ -741,7 +741,7 @@ with open('society_circulars_raw.txt', 'w', encoding='utf-8') as f:
 print("✓ Circulars saved to society_circulars_raw.txt")
 
 
-# ==================== COMPLAINTS CSV GENERATION ====================
+# COMPLAINTS CSV GENERATION 
 
 def generate_complaints_csv(count=5000):
     """Generate complaints dataset in CSV format"""
@@ -1021,7 +1021,7 @@ complaints = generate_complaints_csv(5000)
 print("✓ Complaints CSV saved to housing_society_complaints.csv")
 
 
-# ==================== VOICE COMPLAINTS JSON GENERATION ====================
+# VOICE COMPLAINTS JSON GENERATION
 
 def generate_voice_complaints_json(count=2000):
     """Generate voice-style complaints in JSON format"""
