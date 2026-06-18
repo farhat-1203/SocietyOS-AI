@@ -1,0 +1,77 @@
+/**
+ * Application-wide constants
+ */
+
+// HTTP Status Codes
+export const HTTP_STATUS = {
+  OK: 200,
+  CREATED: 201,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  CONFLICT: 409,
+  UNPROCESSABLE_ENTITY: 422,
+  INTERNAL_SERVER_ERROR: 500,
+  SERVICE_UNAVAILABLE: 503,
+} as const;
+
+// Error Codes
+export const ERROR_CODES = {
+  // Validation
+  VALIDATION_ERROR: 'VALIDATION_ERROR',
+  MISSING_REQUIRED_FIELD: 'MISSING_REQUIRED_FIELD',
+  INVALID_FORMAT: 'INVALID_FORMAT',
+
+  // Authentication
+  AUTH_ERROR: 'AUTH_ERROR',
+  INVALID_TOKEN: 'INVALID_TOKEN',
+  TOKEN_EXPIRED: 'TOKEN_EXPIRED',
+  NO_TOKEN_PROVIDED: 'NO_TOKEN_PROVIDED',
+
+  // Authorization
+  FORBIDDEN: 'FORBIDDEN',
+  INSUFFICIENT_PERMISSIONS: 'INSUFFICIENT_PERMISSIONS',
+
+  // Resource
+  NOT_FOUND: 'NOT_FOUND',
+  RESOURCE_EXISTS: 'RESOURCE_EXISTS',
+  CONFLICT: 'CONFLICT',
+
+  // Server
+  INTERNAL_ERROR: 'INTERNAL_ERROR',
+  SERVICE_UNAVAILABLE: 'SERVICE_UNAVAILABLE',
+} as const;
+
+// Pagination
+export const PAGINATION = {
+  DEFAULT_PAGE: 1,
+  DEFAULT_LIMIT: 20,
+  MAX_LIMIT: 100,
+  MIN_LIMIT: 1,
+} as const;
+
+// Token
+export const TOKEN_TYPE = {
+  ACCESS: 'access',
+  REFRESH: 'refresh',
+} as const;
+
+// Request
+export const REQUEST_TIMEOUT_MS = 30000;
+export const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000; // 15 minutes
+export const RATE_LIMIT_MAX_REQUESTS = 100;
+
+// Logging
+export const LOG_FORMAT = '[${timestamp}] [${level}] ${message}';
+
+export default {
+  HTTP_STATUS,
+  ERROR_CODES,
+  PAGINATION,
+  TOKEN_TYPE,
+  REQUEST_TIMEOUT_MS,
+  RATE_LIMIT_WINDOW_MS,
+  RATE_LIMIT_MAX_REQUESTS,
+  LOG_FORMAT,
+};
