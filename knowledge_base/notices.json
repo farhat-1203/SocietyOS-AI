@@ -1,0 +1,36 @@
+{
+  "notices": [
+    {
+      "id": "N001",
+      "title": "Water Shutdown Notice",
+      "date": "2026-06-20",
+      "category": "utility",
+      "content": "Water supply will be shut down on June 22, 2026 from 10 AM to 4 PM for pipeline maintenance. Residents are requested to store water in advance.",
+      "urgent": true
+    },
+    {
+      "id": "N002",
+      "title": "Pest Control Schedule",
+      "date": "2026-06-15",
+      "category": "maintenance",
+      "content": "Society-wide pest control will be conducted on June 28, 2026. All residents must vacate common areas from 9 AM to 12 PM. Flat-level pest control is optional at ₹300 per flat.",
+      "urgent": false
+    },
+    {
+      "id": "N003",
+      "title": "Parking Rule Enforcement",
+      "date": "2026-06-10",
+      "category": "parking",
+      "content": "Vehicles found parked in visitor slots beyond 2 hours will be towed at owner's expense. All residents must display parking stickers issued by the office.",
+      "urgent": false
+    },
+    {
+      "id": "N004",
+      "title": "Gym Renovation Closure",
+      "date": "2026-06-12",
+      "category": "facility",
+      "content": "The gym will remain closed from June 25 to July 5, 2026 for flooring renovation. Swimming pool remains open during this period.",
+      "urgent": false
+    }
+  ]
+}

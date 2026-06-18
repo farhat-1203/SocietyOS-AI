@@ -1,0 +1,60 @@
+{
+  "vendors": [
+    {
+      "name": "Raju Plumbing Services",
+      "category": "plumbing",
+      "contact": "9876501001",
+      "available": "8 AM - 8 PM",
+      "rate": "₹200 visit charge + parts",
+      "notes": "Emergency calls accepted"
+    },
+    {
+      "name": "Sharma Electricals",
+      "category": "electrical",
+      "contact": "9876501002",
+      "available": "9 AM - 7 PM",
+      "rate": "₹250 visit charge + parts",
+      "notes": "Call before 6 PM for same-day service"
+    },
+    {
+      "name": "Clean Society Housekeeping",
+      "category": "cleaning",
+      "contact": "9876501003",
+      "available": "7 AM - 5 PM",
+      "rate": "₹500 per session",
+      "notes": "Book 1 day in advance"
+    },
+    {
+      "name": "SpeedFix Lift Services",
+      "category": "lift",
+      "contact": "9876501004",
+      "available": "24/7",
+      "rate": "Contract based",
+      "notes": "AMC vendor — contact for lift emergencies"
+    },
+    {
+      "name": "GreenThumb Gardening",
+      "category": "gardening",
+      "contact": "9876501005",
+      "available": "6 AM - 10 AM",
+      "rate": "Included in maintenance",
+      "notes": "Visits every Tuesday and Friday"
+    },
+    {
+      "name": "QuickFix Carpentry",
+      "category": "carpentry",
+      "contact": "9876501006",
+      "available": "10 AM - 6 PM",
+      "rate": "₹300 visit charge + materials",
+      "notes": "Advance booking preferred"
+    },
+    {
+      "name": "CoolAir AC Services",
+      "category": "ac_repair",
+      "contact": "9876501007",
+      "available": "9 AM - 6 PM",
+      "rate": "₹350 visit charge + parts",
+      "notes": "Summer season: book 2 days in advance"
+    }
+  ]
+}

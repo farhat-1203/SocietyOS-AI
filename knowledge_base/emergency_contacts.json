@@ -1,0 +1,46 @@
+{
+  "emergency_contacts": [
+    {
+      "name": "Fire Brigade",
+      "number": "101",
+      "category": "emergency",
+      "available": "24/7"
+    },
+    {
+      "name": "Police",
+      "number": "100",
+      "category": "emergency",
+      "available": "24/7"
+    },
+    {
+      "name": "Ambulance",
+      "number": "108",
+      "category": "emergency",
+      "available": "24/7"
+    },
+    {
+      "name": "Society Security Desk",
+      "number": "9876500001",
+      "category": "security",
+      "available": "24/7"
+    },
+    {
+      "name": "Society Manager",
+      "number": "9876500002",
+      "category": "management",
+      "available": "9 AM - 6 PM"
+    },
+    {
+      "name": "Electricity Board (MSEDCL)",
+      "number": "19122",
+      "category": "utility",
+      "available": "24/7"
+    },
+    {
+      "name": "Water Supply Complaint",
+      "number": "1916",
+      "category": "utility",
+      "available": "24/7"
+    }
+  ]
+}

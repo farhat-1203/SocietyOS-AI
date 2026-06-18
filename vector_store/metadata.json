@@ -12646,5 +12646,137 @@
     "source": "Society_Notices.pdf",
     "document_type": "notice",
     "chunk_id": "Society_Notices.pdf_chunk_523"
+  },
+  {
+    "text": "Name: Mr. Ramesh Sharma\nRole: Chairman\nFlat: A-101\nContact: 9876500010\nEmail: chairman@greenvalleys.com\nResponsibilities: Overall society management, Dispute resolution, External liaison",
+    "source": "committee_members.json",
+    "document_type": "committee",
+    "chunk_id": "committee_members.json_chunk_0"
+  },
+  {
+    "text": "Name: Mrs. Sunita Patil\nRole: Secretary\nFlat: B-203\nContact: 9876500011\nEmail: secretary@greenvalleys.com\nResponsibilities: Notices, AGM minutes, Correspondence, Document management",
+    "source": "committee_members.json",
+    "document_type": "committee",
+    "chunk_id": "committee_members.json_chunk_0"
+  },
+  {
+    "text": "Name: Mr. Anil Mehta\nRole: Treasurer\nFlat: C-305\nContact: 9876500012\nEmail: treasurer@greenvalleys.com\nResponsibilities: Maintenance collection, Accounts, Audit, Expense approvals",
+    "source": "committee_members.json",
+    "document_type": "committee",
+    "chunk_id": "committee_members.json_chunk_0"
+  },
+  {
+    "text": "Name: Mrs. Priya Desai\nRole: Joint Secretary\nFlat: A-402\nContact: 9876500013\nEmail: jointsec@greenvalleys.com\nResponsibilities: Facility bookings, Vendor coordination, Event management",
+    "source": "committee_members.json",
+    "document_type": "committee",
+    "chunk_id": "committee_members.json_chunk_0"
+  },
+  {
+    "text": "Name: Fire Brigade\nCategory: emergency\nNumber: 101\nAvailable: 24/7",
+    "source": "emergency_contacts.json",
+    "document_type": "emergency_contact",
+    "chunk_id": "emergency_contacts.json_chunk_0"
+  },
+  {
+    "text": "Name: Police\nCategory: emergency\nNumber: 100\nAvailable: 24/7",
+    "source": "emergency_contacts.json",
+    "document_type": "emergency_contact",
+    "chunk_id": "emergency_contacts.json_chunk_0"
+  },
+  {
+    "text": "Name: Ambulance\nCategory: emergency\nNumber: 108\nAvailable: 24/7",
+    "source": "emergency_contacts.json",
+    "document_type": "emergency_contact",
+    "chunk_id": "emergency_contacts.json_chunk_0"
+  },
+  {
+    "text": "Name: Society Security Desk\nCategory: security\nNumber: 9876500001\nAvailable: 24/7",
+    "source": "emergency_contacts.json",
+    "document_type": "emergency_contact",
+    "chunk_id": "emergency_contacts.json_chunk_0"
+  },
+  {
+    "text": "Name: Society Manager\nCategory: management\nNumber: 9876500002\nAvailable: 9 AM - 6 PM",
+    "source": "emergency_contacts.json",
+    "document_type": "emergency_contact",
+    "chunk_id": "emergency_contacts.json_chunk_0"
+  },
+  {
+    "text": "Name: Electricity Board (MSEDCL)\nCategory: utility\nNumber: 19122\nAvailable: 24/7",
+    "source": "emergency_contacts.json",
+    "document_type": "emergency_contact",
+    "chunk_id": "emergency_contacts.json_chunk_0"
+  },
+  {
+    "text": "Name: Water Supply Complaint\nCategory: utility\nNumber: 1916\nAvailable: 24/7",
+    "source": "emergency_contacts.json",
+    "document_type": "emergency_contact",
+    "chunk_id": "emergency_contacts.json_chunk_0"
+  },
+  {
+    "text": "Title: Water Shutdown Notice\nDate: 2026-06-20\nUrgent: True\nCategory: utility\nContent: Water supply will be shut down on June 22, 2026 from 10 AM to 4 PM for pipeline maintenance. Residents are requested to store water in advance.",
+    "source": "notices.json",
+    "document_type": "notice",
+    "chunk_id": "notices.json_chunk_0"
+  },
+  {
+    "text": "Title: Pest Control Schedule\nDate: 2026-06-15\nUrgent: False\nCategory: maintenance\nContent: Society-wide pest control will be conducted on June 28, 2026. All residents must vacate common areas from 9 AM to 12 PM. Flat-level pest control is optional at ₹300 per flat.",
+    "source": "notices.json",
+    "document_type": "notice",
+    "chunk_id": "notices.json_chunk_0"
+  },
+  {
+    "text": "Title: Parking Rule Enforcement\nDate: 2026-06-10\nUrgent: False\nCategory: parking\nContent: Vehicles found parked in visitor slots beyond 2 hours will be towed at owner's expense. All residents must display parking stickers issued by the office.",
+    "source": "notices.json",
+    "document_type": "notice",
+    "chunk_id": "notices.json_chunk_0"
+  },
+  {
+    "text": "Title: Gym Renovation Closure\nDate: 2026-06-12\nUrgent: False\nCategory: facility\nContent: The gym will remain closed from June 25 to July 5, 2026 for flooring renovation. Swimming pool remains open during this period.",
+    "source": "notices.json",
+    "document_type": "notice",
+    "chunk_id": "notices.json_chunk_0"
+  },
+  {
+    "text": "Name: Raju Plumbing Services\nCategory: plumbing\nContact: 9876501001\nAvailable: 8 AM - 8 PM\nRate: ₹200 visit charge + parts\nNotes: Emergency calls accepted",
+    "source": "vendors.json",
+    "document_type": "vendor",
+    "chunk_id": "vendors.json_chunk_0"
+  },
+  {
+    "text": "Name: Sharma Electricals\nCategory: electrical\nContact: 9876501002\nAvailable: 9 AM - 7 PM\nRate: ₹250 visit charge + parts\nNotes: Call before 6 PM for same-day service",
+    "source": "vendors.json",
+    "document_type": "vendor",
+    "chunk_id": "vendors.json_chunk_0"
+  },
+  {
+    "text": "Name: Clean Society Housekeeping\nCategory: cleaning\nContact: 9876501003\nAvailable: 7 AM - 5 PM\nRate: ₹500 per session\nNotes: Book 1 day in advance",
+    "source": "vendors.json",
+    "document_type": "vendor",
+    "chunk_id": "vendors.json_chunk_0"
+  },
+  {
+    "text": "Name: SpeedFix Lift Services\nCategory: lift\nContact: 9876501004\nAvailable: 24/7\nRate: Contract based\nNotes: AMC vendor — contact for lift emergencies",
+    "source": "vendors.json",
+    "document_type": "vendor",
+    "chunk_id": "vendors.json_chunk_0"
+  },
+  {
+    "text": "Name: GreenThumb Gardening\nCategory: gardening\nContact: 9876501005\nAvailable: 6 AM - 10 AM\nRate: Included in maintenance\nNotes: Visits every Tuesday and Friday",
+    "source": "vendors.json",
+    "document_type": "vendor",
+    "chunk_id": "vendors.json_chunk_0"
+  },
+  {
+    "text": "Name: QuickFix Carpentry\nCategory: carpentry\nContact: 9876501006\nAvailable: 10 AM - 6 PM\nRate: ₹300 visit charge + materials\nNotes: Advance booking preferred",
+    "source": "vendors.json",
+    "document_type": "vendor",
+    "chunk_id": "vendors.json_chunk_0"
+  },
+  {
+    "text": "Name: CoolAir AC Services\nCategory: ac_repair\nContact: 9876501007\nAvailable: 9 AM - 6 PM\nRate: ₹350 visit charge + parts\nNotes: Summer season: book 2 days in advance",
+    "source": "vendors.json",
+    "document_type": "vendor",
+    "chunk_id": "vendors.json_chunk_0"
   }
 ]

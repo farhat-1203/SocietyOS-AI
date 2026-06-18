@@ -1,0 +1,36 @@
+{
+  "committee_members": [
+    {
+      "name": "Mr. Ramesh Sharma",
+      "role": "Chairman",
+      "flat": "A-101",
+      "contact": "9876500010",
+      "email": "chairman@greenvalleys.com",
+      "responsibilities": ["Overall society management", "Dispute resolution", "External liaison"]
+    },
+    {
+      "name": "Mrs. Sunita Patil",
+      "role": "Secretary",
+      "flat": "B-203",
+      "contact": "9876500011",
+      "email": "secretary@greenvalleys.com",
+      "responsibilities": ["Notices", "AGM minutes", "Correspondence", "Document management"]
+    },
+    {
+      "name": "Mr. Anil Mehta",
+      "role": "Treasurer",
+      "flat": "C-305",
+      "contact": "9876500012",
+      "email": "treasurer@greenvalleys.com",
+      "responsibilities": ["Maintenance collection", "Accounts", "Audit", "Expense approvals"]
+    },
+    {
+      "name": "Mrs. Priya Desai",
+      "role": "Joint Secretary",
+      "flat": "A-402",
+      "contact": "9876500013",
+      "email": "jointsec@greenvalleys.com",
+      "responsibilities": ["Facility bookings", "Vendor coordination", "Event management"]
+    }
+  ]
+}

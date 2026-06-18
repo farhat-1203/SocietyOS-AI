@@ -65,8 +65,23 @@ def ask_society_ai(question, index, metadata, top_k=TOP_K):
             "sources": []
         }
 
-    answer = generate_ollama(question, chunks)
+    try:
+        answer = generate_ollama(question, chunks)
+    except Exception:
+        # Ollama failed or timed out — fall back to using retrieved chunks directly
+        answer = "The requested information is not available in society records."
+
     sources = list(dict.fromkeys(chunk["source"] for chunk in chunks))
+
+    # Fallback: if the model says 'not available' but we have vendor/emergency chunks, return those directly
+    if answer.strip() == "The requested information is not available in society records.":
+        for chunk in chunks:
+            src = chunk.get("source", "").lower()
+            if "vendor" in src or "vendors" in src or "emergency" in src:
+                return {
+                    "answer": chunk["text"],
+                    "sources": [chunk["source"]],
+                }
 
     return {
         "answer": answer,
