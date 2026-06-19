@@ -14,8 +14,7 @@ from faster_whisper import WhisperModel
 
 class QueryRequest(BaseModel):
     question: str
-
-
+    
 class QueryResponse(BaseModel):
     answer: str
     sources: list[str] = []
