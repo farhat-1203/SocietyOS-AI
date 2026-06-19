@@ -1,5 +1,5 @@
 from sentence_transformers import SentenceTransformer, util
-from categories import CATEGORY_DESCRIPTIONS
+from logic.categories import CATEGORY_DESCRIPTIONS
 import difflib
 import csv
 import os

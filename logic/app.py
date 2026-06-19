@@ -4,7 +4,7 @@ import queue
 import threading
 
 from faster_whisper import WhisperModel
-from classifier import classify, detect_priority, is_hallucination, assign_responsible, load_examples_from_csv
+from logic.classifier import classify, detect_priority, is_hallucination, assign_responsible, load_examples_from_csv
 
 
 # CONFIG
