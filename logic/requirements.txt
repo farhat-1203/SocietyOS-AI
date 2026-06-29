@@ -4,6 +4,5 @@ torch
 numpy
 ffmpeg-python
 scikit-learn
-
 faster-whisper
 sounddevice

@@ -52,7 +52,6 @@ def search(query_embedding, index, metadata, top_k=5):
     query_vec = np.asarray(query_embedding, dtype="float32")
     if query_vec.ndim == 1:
         query_vec = query_vec.reshape(1, -1)
-
     scores, indices = index.search(query_vec, top_k)
     results = []
 
